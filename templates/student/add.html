@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加学生信息</title>
+</head>
+<body>
+    <h1>请在下列信息栏中填入学生信息</h1>
+    <form method="post" action="/student/add/">
+        学生学号：<input type="text" name="student_id" autocomplete="off"/><br>
+        学生姓名：<input type="text" name="student_name" autocomplete="off"/><br>
+        学生性别：<input type="text" name="student_sex" autocomplete="off"/><br>
+        学生地址：<input type="text" name="student_addriess" autocomplete="off"/><br>
+        学生班级：<input type="text" name="student_class" autocomplete="off"/><br>
+{#        id：<input type="text" name="id" autocomplete="off"/><br>#}
+        <input class="btn btn-info" type="submit" value="保存"/>
+    </form>
+</body>
+</html>
